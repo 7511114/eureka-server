@@ -1,0 +1,11 @@
+# 比application context先加载
+# 应用名称
+spring:
+  application:
+    name: eureka-server
+security:
+  basic:
+    enabled: false
+  user:
+    name: admin
+    password: 123456
