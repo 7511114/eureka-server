@@ -37,7 +37,7 @@ eureka:
     # false 关闭自我保护，不管如何都要剔除心跳检测异常的服务
     enableSelfPreservation: false
   instance:
-    hostname: eureka1
+    hostname: ${HOSTNAME}
 ---
 spring:
   profiles: prod
